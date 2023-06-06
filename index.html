@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Generating Web Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>QR Generating Web Site</h1>
+    <form id="textForm">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="subjectCode">Subject Code:</label>
+        <input type="text" id="subjectCode" required>
+      </div>
+      <button type="submit" id="generateButton">Generate</button>
+    </form>
+    <div id="qrcode"></div>
+    <div id="outputContainer">
+      <h2>Text Output:</h2>
+      <div id="textOutput"></div>
+      <button id="copyButton" onclick="copyToClipboard()">Copy Link</button>
+      <button id="downloadButton">Download QR Code</button>
+      <button id="viewButton">View in Another Tab</button>
+    </div>
+  </div>
+  <script src="qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

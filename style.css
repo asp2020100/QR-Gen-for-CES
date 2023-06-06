@@ -1,0 +1,99 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #666;
+}
+
+input {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 12px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#qrcode {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#outputContainer {
+  display: none;
+}
+
+#textOutput {
+  margin-bottom: 15px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  word-wrap: break-word;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#copyButton,
+#downloadButton,
+#viewButton {
+  display: block;
+  margin: 10px auto;
+  padding: 12px 20px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#copyButton:hover,
+#downloadButton:hover,
+#viewButton:hover {
+  background-color: #286090;
+}
+
+#viewButton {
+  background-color: #f0ad4e;
+}
+
+#viewButton:hover {
+  background-color: #eea236;
+}
